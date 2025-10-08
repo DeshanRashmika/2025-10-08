@@ -1,0 +1,146 @@
+
+  body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .background {
+        box-shadow: 10px 10px 5px grey;
+      background-image: url("school.jpg"); color-interpolation-filters: sRGB;
+      background-size: cover;
+      background-position: center;
+      filter: blur(8px);
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: -1;
+      text-align: center;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+      background-color: #333; 
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: darkblue;
+    }
+    nav ul li{
+      padding: 10px;
+      color: aliceblue;
+      text-align: right;
+    }
+h1{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    filter: blur(-50%);
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  border-style: groove;
+  background-color: #333;
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+nav ul li a:hover {
+  background-color: white;
+  color:#333 ;
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 6px;
+  transform: scale(1.1);
+    color: #0077cc;
+display: inline-block;
+color:gray;
+transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.highlight, .contact-info, .promo {
+  padding: 20px;
+  margin: 20px;
+  background-color: #e6f2ff;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-links ul li {
+  margin: 5px 0;
+  left: auto;
+}
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+}
